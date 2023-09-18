@@ -71,7 +71,8 @@ operation = input(f"Enter which operation you want to do: \n"
                   f"1 - Multipy matrix by digit \n"
                   f"2 - Add two matrices \n"
                   f"3 - Deduction of two matrices \n"
-                  f"4 - Multiply two matrices: \n")
+                  f"4 - Multiply two matrices \n"
+                  f"Write operation here: ")
 
 if operation == "1":
     print("Enter matrix1:")
@@ -82,7 +83,7 @@ if operation == "1":
         print(row)
 
 
-if operation == "2":
+elif operation == "2":
     print("Enter matrix1:")
     matrix1 = input_matrix()
 
@@ -94,7 +95,7 @@ if operation == "2":
     for row in result:
         print(row)
 
-if operation == "3":
+elif operation == "3":
     print("Enter matrix1:")
     matrix1 = input_matrix()
 
@@ -106,7 +107,7 @@ if operation == "3":
     for row in result:
         print(row)
 
-if operation == "4":
+elif operation == "4":
     print("Enter matrix1:")
     matrix1 = input_matrix()
 
