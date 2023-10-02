@@ -1,4 +1,5 @@
 def input_matrix():
+    print("start")
     columns = int(input("Enter the number of columns: "))
     rows = int(input("Enter the number of rows: "))
 
